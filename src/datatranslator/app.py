@@ -12,7 +12,7 @@ from flask import Flask, request, jsonify
 from datatranslator.apierror import (BaseException, 
                                     BadRequest,
                                     TranslatorException,)
-from datatranslator.traslator import (get_translator_object,
+from datatranslator.translator import (get_translator_object,
                                       LOW_TOLERANCE, 
                                       HUMAN_READABLE)
 

@@ -1,7 +1,6 @@
-src/date_translator.egg-info/dependency_links.txt
-src/date_translator.egg-info/not-zip-safe
-src/date_translator.egg-info/PKG-INFO
-src/date_translator.egg-info/requires.txt
-src/date_translator.egg-info/SOURCES.txt
-src/date_translator.egg-info/top_level.txt
 .DS_Store
+src/date_translator.egg-info/*
+venv/*
+build/*
+dist/*
+tests/__pycache__/*
