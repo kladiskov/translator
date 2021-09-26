@@ -15,6 +15,7 @@ Author: Sandesh P V
 2. Ubuntu 16.04 x64
 
 ### Package Structure:
+```
 ├── LICENSE
 ├── README.md
 ├── setup.py
@@ -30,6 +31,7 @@ Author: Sandesh P V
     ├── fixtures.py
     ├── test_app.py
     └── test_translator.py
+```
 
 Main files:
 README.md: This file
@@ -84,13 +86,16 @@ whereas it takes a form parameter file which is the name of the file that contai
 ```
 
 Output will be printed in the console as mentioned in the problem statement:
-*Monday: Closed
+
+```
+Monday: Closed
 Tuesday: 10 AM - 6 PM
 Wednesday: Closed
 Thursday: 10:30 AM - 6 PM
 Friday: 10 AM - 1 AM
 Saturday: 10 AM - 1 AM
-Sunday: 12 PM - 9 PM*
+Sunday: 12 PM - 9 PM
+```
 
 Please note, the same will be send back to the client in the form of a list:
 [
